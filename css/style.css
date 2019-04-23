@@ -1,0 +1,42 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i|Lato:300,300i,400,400i,700,700i');
+
+/* Import icons */
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+/* Import CSS components */
+@import url("cards.css");
+@import url("container.css");
+@import url("footer.css");
+@import url("logo.css");
+@import url("menu.css");
+
+:root {
+    --prim-1000: hsla(31, 42%, 53%, 1.00);
+    --sup-1000: hsla(31, 15%, 94%, 1.00);
+    --neutral-1000: hsla(116, 0%, 20%, 1.00);
+    --neutral-100: hsla(115, 100%, 100%, 1.00);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--neutral-1000);
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a {
+    color: var(--neutral-1000);
+    text-decoration-color: var(--prim-1000);
+}
