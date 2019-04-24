@@ -10,11 +10,12 @@
 
 .logo__name {
     font-family: var(--font-serif);
-    font-size: 1.625rem;
+    font-size: 1.875rem;
+    text-transform: uppercase;
 }
 
 .logo__name--tilted {
-    font-size: 1rem;
+    font-size: 1.125rem;
     transform: rotate(-90deg);
     text-transform: lowercase;
 }
