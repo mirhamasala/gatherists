@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .banner__intro {
@@ -8,10 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 24px;
 }
 
 .banner__header {
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 .banner__image-wrap {
@@ -26,15 +27,15 @@
 }
 
 .banner__text {
-    margin-bottom: 36px;
+    margin-bottom: 32px;
 }
 
 .banner__deco {
     background-color: var(--sup-1000);
     position: absolute;
-    right: -150px;
-    bottom: -100px;
-    width: 500px;
-    height: 400px;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    height: 75%;
     z-index: -1;
 }
