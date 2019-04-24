@@ -1,21 +1,27 @@
 /* Import font */
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i|Lato:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,500,500i,600,600i,700,700i|Lato:300,300i,400,400i,700,700i');
 
 /* Import icons */
 @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 
 /* Import CSS components */
-@import url("cards.css");
-@import url("container.css");
-@import url("footer.css");
-@import url("logo.css");
-@import url("menu.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/container.css");
+@import url("components/logo.css");
+
+@import url("components/menu.css");
+@import url("components/navbar.css");
 
 :root {
     --prim-1000: hsla(31, 42%, 53%, 1.00);
     --sup-1000: hsla(31, 15%, 94%, 1.00);
     --neutral-1000: hsla(116, 0%, 20%, 1.00);
     --neutral-100: hsla(115, 100%, 100%, 1.00);
+    --font-serif: "EB Garamond", serif;
+    --font-sans-serif: "Lato", sans-serif;
+
+    font-size: 18px;
 }
 
 * {
@@ -26,17 +32,28 @@ body {
     background-color: var(--white);
     color: var(--neutral-1000);
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-sans-serif);
     font-weight: 300;
 }
 
 h1, h2, h3 {
-    font-family: "EB Garamond", serif;
+    font-family: var(--font-serif);
     font-weight: 400;
     text-transform: uppercase;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 a {
     color: var(--neutral-1000);
-    text-decoration-color: var(--prim-1000);
+    text-decoration: none;
+}
+
+.link {
+    background-image: linear-gradient(180deg, transparent 70%, var(--sup-1000) 0);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }

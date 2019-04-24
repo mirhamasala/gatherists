@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    padding: 100px 0;
+}
+
+.banner__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner__header {
+    font-size: 2rem;
+}
+
+.banner__image {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner__text {
+    margin-bottom: 36px;
+    font-style: italic;
+}
+
+.banner__deco {
+    background-color: var(--sup-1000);
+    position: absolute;
+    right: 0;
+    bottom: 125px;
+    width: 500px;
+    height: 400px;
+    z-index: -1;
+}

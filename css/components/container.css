@@ -1,0 +1,5 @@
+.container {
+    max-width: 960px;
+    max-height: 100vh;
+    margin: 48px auto;
+}
