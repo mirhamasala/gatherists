@@ -14,8 +14,11 @@
     font-size: 2rem;
 }
 
-.banner__image {
+.banner__image-wrap {
     position: relative;
+}
+
+.banner__image {
     width: 600px;
     height: 500px;
     object-fit: cover;
@@ -29,8 +32,8 @@
 .banner__deco {
     background-color: var(--sup-1000);
     position: absolute;
-    right: 0;
-    bottom: 125px;
+    right: -150px;
+    bottom: -100px;
     width: 500px;
     height: 400px;
     z-index: -1;
