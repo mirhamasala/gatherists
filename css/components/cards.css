@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  width: 224px;
+  height: 256px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.card__edition {
+  color: var(--prim-1000);
+  margin-bottom: 0;
+}
+
+.card__city {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
