@@ -1,0 +1,17 @@
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.title__name {
+    font-family: var(--font-serif);
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.title__name--tilted {
+    font-size: 1.125rem;
+    transform: rotate(-90deg);
+    text-transform: lowercase;
+}
