@@ -1,8 +1,4 @@
 .container {
-  height: 80vh;
-  padding: 48px 32px;
-}
-
-.container--navbar {
-  height: 100%;
+  min-height: 80vh;
+  padding: 32px;
 }
