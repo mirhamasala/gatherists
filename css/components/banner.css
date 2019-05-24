@@ -1,6 +1,5 @@
 .banner {
 	display: flex;
-	padding: 32px 24px;
 }
 
 .banner__intro {
@@ -8,15 +7,15 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	padding-right: 24px;
+	margin-right: 32px;
 }
 
 .banner__header {
   position: relative;
-  width: 150%;
+  width: 144%;
   z-index: 1;
 	font-size: 2.25rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.125rem;
 }
 
 .banner__image-wrap {

@@ -1,6 +1,6 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 32px;
 }

@@ -1,5 +1,5 @@
 .container {
-    width: 960px;
-    min-height: 100vh;
-    margin: 0 auto;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 48px 32px 96px 32px;
 }
