@@ -1,17 +1,12 @@
-.logo {
+.header {
   display: flex;
   align-items: center;
   font-family: var(--font-serif);
   font-size: 1.875rem;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
-.logo:hover {
-  color: var(--prim-1000);
-}
-
-.logo__name-article {
+.header__article {
   font-size: 1.125rem;
   transform: rotate(-90deg);
   text-transform: lowercase;
