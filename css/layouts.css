@@ -4,12 +4,15 @@
 }
 
 .concept__image {
-  width: 256px;
-  height: 256px;
-  object-fit: cover;
   margin-right: 104px;
 }
 
 .concept__text {
   width: 48%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
 }
