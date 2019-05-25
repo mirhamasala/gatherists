@@ -55,7 +55,7 @@ p {
   align-items: center;
 }
 
-.concept__image-wrap {
+.concept__image {
   margin-right: 104px;
 }
 
@@ -73,14 +73,14 @@ p {
   background-color: var(--sup-1000);
 }
 
-.contact__wrapper {
+.contact__content-wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 64px 0;
 }
 
 .instagram__header-wrap {
@@ -110,4 +110,8 @@ p {
   justify-content: space-between;
   align-items: baseline;
   padding: 48px 0;
+}
+
+.margin-bottom {
+  margin-bottom: 96px;
 }
