@@ -17,3 +17,12 @@
 .menu__item:hover {
   border-bottom: 2px solid var(--prim-1000);
 }
+
+.menu__item--footer {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.menu__item--footer:hover {
+  border-bottom: none;
+}

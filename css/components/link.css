@@ -1,0 +1,15 @@
+.link {
+  display: inline-block;
+  background-image: linear-gradient(180deg, transparent 70%, var(--sup-1000) 0);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.link--prim-color {
+  background-image: linear-gradient(180deg, transparent 70%, var(--prim-1000) 0);
+}
+
+.link--small {
+  font-size: 0.875rem;
+}

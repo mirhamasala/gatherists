@@ -1,0 +1,9 @@
+.image {
+  width: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image--square {
+  height: 240px;
+}

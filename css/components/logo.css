@@ -16,11 +16,11 @@
   text-transform: lowercase;
 }
 
-/*.logo--small {
-  font-size: ;
+.logo--small {
+  font-size: 1.25rem ;
 }
 
 .logo__article--small {
-  font-size: ;
+  font-size: 0.875em ;
 }
-*/
+
