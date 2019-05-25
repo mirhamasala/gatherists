@@ -6,14 +6,14 @@
   text-transform: uppercase;
 }
 
+.logo--small {
+  font-size: 1.25rem ;
+}
+
 .logo__article {
   font-size: 1.125rem;
   transform: rotate(-90deg);
   text-transform: lowercase;
-}
-
-.logo--small {
-  font-size: 1.25rem ;
 }
 
 .logo__article--small {
