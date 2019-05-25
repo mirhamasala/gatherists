@@ -1,4 +1,18 @@
 .link {
+  color: var(--neutral-1000);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link--small {
+  font-size: 0.875rem;
+}
+
+.link--logo:hover {
+  color: var(--prim-1000);
+}
+
+.link-underline {
   display: inline-block;
   background-image: linear-gradient(180deg, transparent 70%, var(--sup-1000) 0);
   font-weight: 400;
@@ -6,10 +20,6 @@
   letter-spacing: 1px;
 }
 
-.link--prim-color {
+.link-underline--prim {
   background-image: linear-gradient(180deg, transparent 70%, var(--prim-1000) 0);
-}
-
-.link--small {
-  font-size: 0.875rem;
 }

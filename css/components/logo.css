@@ -6,10 +6,6 @@
   text-transform: uppercase;
 }
 
-.logo:hover {
-  color: var(--prim-1000);
-}
-
 .logo__article {
   font-size: 1.125rem;
   transform: rotate(-90deg);
@@ -21,6 +17,5 @@
 }
 
 .logo__article--small {
-  font-size: 0.875em ;
+  font-size: 0.875rem ;
 }
-

@@ -50,11 +50,6 @@ p {
   margin-top: 0;
 }
 
-a {
-  color: var(--neutral-1000);
-  text-decoration: none;
-}
-
 .concept {
   display: flex;
   align-items: center;
