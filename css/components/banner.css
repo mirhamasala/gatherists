@@ -23,8 +23,8 @@
 }
 
 .banner__image {
-	width: 600px;
 	height: 500px;
+	width: 600px;
 	object-fit: cover;
 	object-position: center;
 }
