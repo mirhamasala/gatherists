@@ -1,3 +1,7 @@
+/**/
+/* ---------- */
+/* THE CONCEPT */
+
 .concept {
   display: flex;
   align-items: center;
@@ -11,25 +15,54 @@
   width: 48%;
 }
 
+/**/
+/* ---------- */
+/* THE GATHERINGS */
+
 .cards-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
 }
 
-.contact {
+/**/
+/* ---------- */
+/* JOIN US - CONTACT */
+
+.contact-background {
   background-color: var(--sup-1000);
+}
+
+.contact {
+  position: relative;
+}
+
+.contact__image {
+  position: absolute;
+  top: 72%;
+  left: calc(50% - 300px);
+  height: 240px;
+  width: 600px;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+.spacer {
+  margin: 256px 0 0 0;
 }
 
 .contact__content-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 50%;
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 48px 0 128px 0;
 }
+
+/**/
+/* ---------- */
+/* INSTAGRAM */
 
 .instagram__header-wrap {
   display: flex;
@@ -52,6 +85,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+/**/
+/* ---------- */
+/* FOOTER */
 
 .footer {
   display: flex;
