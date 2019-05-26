@@ -21,6 +21,7 @@
 .menu__item--footer {
   padding-bottom: 0;
   border-bottom: none;
+  font-size: 0.875rem
 }
 
 .menu__item--footer:hover {
