@@ -1,0 +1,61 @@
+.concept {
+  display: flex;
+  align-items: center;
+}
+
+.concept__image {
+  margin-right: 104px;
+}
+
+.concept__text {
+  width: 48%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.contact {
+  background-color: var(--sup-1000);
+}
+
+.contact__content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.instagram__header-wrap {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 32px;
+}
+
+.instagram__icon {
+  color: var(--prim-1000);
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+.instagram__header {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+}
+
+.instagram__images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 48px 0;
+}
