@@ -3,7 +3,8 @@
   align-items: center;
   font-family: var(--font-serif);
   font-size: 1.875rem;
-  margin-bottom: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
   text-transform: uppercase;
 }
 

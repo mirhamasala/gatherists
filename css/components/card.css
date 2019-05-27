@@ -5,6 +5,7 @@
 
 .card__image-wrap {
   position: relative;
+  margin-bottom: 12px;
 }
 
 .card__image {
@@ -47,7 +48,7 @@
 }
 
 .card__text > span {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .card__link {

@@ -1,17 +1,20 @@
 /**/
 /* ---------- */
 /* SPACERS */
-
-.spacer {
+.spacer-bottom {
   margin-bottom: 96px;
 }
 
-.spacer--banner {
+.spacer-bottom--banner {
   margin-bottom: 256px;
 }
 
-.spacer--contact {
+.spacer-bottom--contact {
   margin-bottom: 256px;
+}
+
+.spacer-bottom--instagram {
+  margin-bottom: 48px;
 }
 
 /**/
@@ -26,7 +29,7 @@
 .concept__image-wrap {
   height: 240px;
   width: 240px;
-  margin: 0 96px 0 64px;
+  margin: 0 104px 0 32px;
 }
 
 .concept__text {
@@ -40,7 +43,7 @@
 .cards-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 /**/
@@ -65,7 +68,7 @@
 }
 
 .contact__text {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .contact__image {
@@ -82,13 +85,13 @@
 .instagram__header-wrap {
   display: flex;
   align-items: baseline;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .instagram__icon {
   color: var(--prim-1000);
-  font-size: 2rem;
-  margin-right: 12px;
+  font-size: 1.875rem;
+  margin-right: 8px;
 }
 
 .instagram__header {
