@@ -103,14 +103,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-/**/
-/* ---------- */
-/* FOOTER */
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 48px 0;
-}
