@@ -4,11 +4,13 @@
 
 .concept {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.concept__image {
-  margin-right: 104px;
+.concept__image-wrap {
+  height: 240px;
+  width: 240px;
+  margin: 0 96px 0 64px;
 }
 
 .concept__text {
