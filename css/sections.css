@@ -18,7 +18,7 @@
 
 /**/
 /* THE CONCEPT */
-.concept {\
+.concept {
   display: flex;
   align-items: flex-end;
 }
