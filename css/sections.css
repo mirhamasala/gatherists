@@ -1,5 +1,4 @@
 /**/
-/* ---------- */
 /* SPACERS */
 .spacer-bottom {
   margin-bottom: 96px;
@@ -18,10 +17,8 @@
 }
 
 /**/
-/* ---------- */
 /* THE CONCEPT */
-
-.concept {
+.concept {\
   display: flex;
   align-items: flex-end;
 }
@@ -37,9 +34,7 @@
 }
 
 /**/
-/* ---------- */
 /* THE GATHERINGS */
-
 .cards-container {
   display: flex;
   justify-content: space-between;
@@ -47,9 +42,7 @@
 }
 
 /**/
-/* ---------- */
 /* JOIN US - CONTACT */
-
 .contact-background {
   background-color: var(--sup-1000);
 }
@@ -79,9 +72,7 @@
 }
 
 /**/
-/* ---------- */
 /* INSTAGRAM */
-
 .instagram__header-wrap {
   display: flex;
   align-items: baseline;

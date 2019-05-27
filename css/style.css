@@ -44,12 +44,6 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
 p {
   line-height: 1.5rem;
   margin-top: 0;
