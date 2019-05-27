@@ -4,9 +4,3 @@
   align-items: baseline;
   padding: 48px 0;
 }
-
-.navbar--sticky {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}

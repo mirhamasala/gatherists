@@ -1,12 +1,12 @@
 .banner {
-	display: flex;
+  display: flex;
 }
 
 .banner__intro {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .banner__header {
@@ -14,7 +14,7 @@
   width: 128%;
   margin-bottom: 32px;
   font-family: var(--font-serif);
-	font-size: 2.25rem;
+  font-size: 2.25rem;
   font-weight: 400;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
@@ -22,27 +22,27 @@
 }
 
 .banner__image-wrap {
-	position: relative;
+  position: relative;
 }
 
 .banner__image {
-	height: 500px;
-	width: 600px;
-	object-fit: cover;
-	object-position: center;
+  height: 500px;
+  width: 600px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .banner__text {
   width: 96%;
-	margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .banner__deco {
-	background-color: var(--sup-1000);
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	width: 100%;
-	height: 75%;
-	z-index: -1;
+  background-color: var(--sup-1000);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
 }
