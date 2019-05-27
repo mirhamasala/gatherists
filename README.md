@@ -4,6 +4,4 @@ As part of my "developer MBA" (see [Leap of Code](https://www.mirhamasala.com/le
 
 I chose [The Gatherists](https://www.instagram.com/thegatherists/) as the brand and asked Laura Crompton to do the design.
 
-🍃
-
-Monday, 27 May 2019: Implemented desktop design
+🍃 Monday, 27 May 2019: Implemented desktop design
