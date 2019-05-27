@@ -1,5 +1,21 @@
 /**/
 /* ---------- */
+/* SPACERS */
+
+.spacer {
+  margin-bottom: 96px;
+}
+
+.spacer--banner {
+  margin-bottom: 256px;
+}
+
+.spacer--contact {
+  margin-bottom: 256px;
+}
+
+/**/
+/* ---------- */
 /* THE CONCEPT */
 
 .concept {
@@ -39,27 +55,24 @@
   position: relative;
 }
 
-.contact__image {
-  position: absolute;
-  top: 72%;
-  left: calc(50% - 300px);
-  height: 240px;
-  width: 600px;
-  object-position: bottom;
-  object-fit: cover;
-}
-
-.spacer {
-  margin: 256px 0 0 0;
-}
-
-.contact__content-wrap {
+.contact__text-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
   margin: 0 auto;
-  padding: 48px 0 128px 0;
+  padding: 48px 0 96px 0;
+}
+
+.contact__text {
+  margin-bottom: 24px;
+}
+
+.contact__image {
+  position: absolute;
+  top: 80%;
+  left: 19%;
+  width: 60%; /* Of parent container */
 }
 
 /**/
