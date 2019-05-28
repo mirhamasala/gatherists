@@ -15,16 +15,11 @@
   width: 48%;
 }
 
-.concept__paragraph {
-  margin-bottom: 12px;
-}
-
 /**/
 /* THE GATHERINGS */
 .cards-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
 }
 
 /**/

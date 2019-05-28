@@ -10,9 +10,11 @@
 }
 
 .footer__item {
+  color: var(--neutral-1000);
   font-size: 0.875rem;
   margin-right: 48px;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 

@@ -21,12 +21,8 @@ body {
   text-transform: lowercase;
 }
 
-.heading--small {
-  font-size: 1.25rem ;
-}
-
-.heading__article--small {
-  font-size: 0.875rem ;
+.paragraph {
+  margin-bottom: 12px;
 }
 
 .link {

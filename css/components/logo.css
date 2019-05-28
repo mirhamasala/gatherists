@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.logo__article {
+  font-size: 1.125rem;
+  transform: rotate(-90deg);
+  text-transform: lowercase;
+}
+
+.logo--small {
+  font-size: 1.25rem ;
+}
+
+.logo__article--small {
+  font-size: 0.875rem ;
+}

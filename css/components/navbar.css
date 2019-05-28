@@ -1,6 +1,28 @@
-.main-nav {
+.site-nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding: 48px 0;
+}
+
+.site-nav__menu {
+  display: flex;
+}
+
+.site-nav__link {
+  color: var(--neutral-1000);
+  margin-right: 48px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-nav__link:last-child {
+  margin-right: 0;
+}
+
+.site-nav__link:hover {
+  border-bottom: 2px solid var(--prim-1000);
 }

@@ -1,3 +1,7 @@
+.background-color-sup {
+  background-color: var(--sup-1000);
+}
+
 .spacer-sm {
   margin-bottom: 48px;
 }
@@ -12,8 +16,4 @@
 
 .spacer-xl {
   margin-bottom: 256px;
-}
-
-.background-color-sup {
-  background-color: var(--sup-1000);
 }
