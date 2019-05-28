@@ -5,11 +5,6 @@ body {
   line-height: 1.5rem;
 }
 
-a {
-  color: var(--neutral-1000);
-  text-decoration: none;
-}
-
 .heading {
   display: flex;
   align-items: center;
@@ -24,6 +19,19 @@ a {
   font-size: 1.125rem;
   transform: rotate(-90deg);
   text-transform: lowercase;
+}
+
+.heading--small {
+  font-size: 1.25rem ;
+}
+
+.heading__article--small {
+  font-size: 0.875rem ;
+}
+
+.link {
+  color: var(--neutral-1000);
+  text-decoration: none;
 }
 
 .link-underlined {
