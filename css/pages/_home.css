@@ -67,9 +67,10 @@
   margin-right: 8px;
 }
 
-.instagram__header {
+.instagram__heading {
   font-family: var(--font-serif);
   font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .instagram__images {
