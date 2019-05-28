@@ -1,5 +1,6 @@
-/**/
-/* THE CONCEPT */
+/**
+  * Concept
+*/
 .concept {
   display: flex;
   align-items: flex-end;
@@ -11,20 +12,22 @@
   margin: 0 104px 0 32px;
 }
 
-.concept__text {
+.concept__text-wrap {
   width: 48%;
 }
 
-/**/
-/* THE GATHERINGS */
+/**
+  * Gatherings
+*/
 .cards-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
 }
 
-/**/
-/* JOIN US - CONTACT */
+/**
+  * Join Us
+*/
 .contact {
   position: relative;
 }
@@ -38,7 +41,7 @@
   padding: 48px 0 96px 0;
 }
 
-.contact__text {
+.contact__paragraph {
   margin-bottom: 32px;
 }
 
@@ -49,8 +52,9 @@
   width: 60%; /* Of parent container */
 }
 
-/**/
-/* INSTAGRAM */
+/**
+  * Instagram
+*/
 .instagram__header-wrap {
   display: flex;
   align-items: baseline;
@@ -58,7 +62,7 @@
 }
 
 .instagram__icon {
-  color: var(--prim-1000);
+  color: var(--primary);
   font-size: 1.875rem;
   margin-right: 8px;
 }

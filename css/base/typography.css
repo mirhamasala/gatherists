@@ -1,5 +1,5 @@
 body {
-  color: var(--neutral-1000);
+  color: var(--black);
   font-family: var(--font-sans-serif);
   font-weight: 300;
   line-height: 1.5rem;
@@ -25,14 +25,9 @@ body {
   margin-bottom: 12px;
 }
 
-.link {
-  color: var(--neutral-1000);
-  text-decoration: none;
-}
-
 .link-underlined {
   background-image: linear-gradient(180deg, transparent 65%, rgba(186, 137, 86, 0.3) 0);
-  color: var(--neutral-1000);
+  color: var(--black);
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none;

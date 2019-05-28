@@ -10,7 +10,7 @@
 }
 
 .site-nav__link {
-  color: var(--neutral-1000);
+  color: var(--black);
   margin-right: 48px;
   padding-bottom: 8px;
   border-bottom: 2px solid transparent;
@@ -24,5 +24,5 @@
 }
 
 .site-nav__link:hover {
-  border-bottom: 2px solid var(--prim-1000);
+  border-bottom: 2px solid var(--primary);
 }

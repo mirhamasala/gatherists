@@ -1,0 +1,10 @@
+:root {
+  --primary: hsl(31, 42%, 53%);
+  --secondary: hsl(31, 15%, 94%);
+
+  --black: hsl(116, 0%, 20%);
+  --white: hsl(129, 11%, 100%);
+
+  --font-serif: "EB Garamond", serif;
+  --font-sans-serif: "Lato", sans-serif;
+}

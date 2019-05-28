@@ -1,22 +1,21 @@
-:root {
-  --prim-1000: hsl(31, 42%, 53%);
-  --sup-1000: hsl(31, 15%, 94%);
-  --neutral-1000: hsl(116, 0%, 20%);
-
-  --font-serif: "EB Garamond", serif;
-  --font-sans-serif: "Lato", sans-serif;
+html {
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 18px;
+  box-sizing: inherit;
 }
 
 body {
   max-width: 100vw;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
 }

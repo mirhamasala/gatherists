@@ -23,7 +23,7 @@
   right: 0;
   height: 288px;
   width: 240px;
-  background-color: var(--neutral-1000);
+  background-color: var(--black);
   opacity: 0;
   transition: .5s ease;
 }
@@ -33,34 +33,35 @@
 }
 
 .card__overlay--new-edition {
-  background-color: var(--prim-1000);
+  background-color: var(--primary);
 }
 
-.card__text {
+.card__text-wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: white;
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
 }
 
-.card__text > span {
+.card__heading {
+  color: var(--white);
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
   margin-bottom: 24px;
 }
 
 .card__link {
-  color: white;
+  color: var(--white);
+  font-family: var(--font-serif);
   font-size: 1.125rem;
-  text-transform: uppercase;
   letter-spacing: 1px;
+  text-transform: uppercase;
   text-decoration: underline;
 }
 
 .card__edition {
-  color: var(--prim-1000);
+  color: var(--primary);
 }
 
 .card__city {
