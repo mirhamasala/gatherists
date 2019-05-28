@@ -1,0 +1,19 @@
+.spacer-sm {
+  margin-bottom: 48px;
+}
+
+.spacer-md {
+  margin-bottom: 96px;
+}
+
+.spacer-lg {
+  margin-bottom: 192px;
+}
+
+.spacer-xl {
+  margin-bottom: 256px;
+}
+
+.background-color-sup {
+  background-color: var(--sup-1000);
+}

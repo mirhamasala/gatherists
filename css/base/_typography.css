@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  color: var(--neutral-1000);
+}
+
+p {
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+
+a {
+  color: var(--neutral-1000);
+  text-decoration: none;
+}
+
+/*.heading-primary {
+
+}
+
+.heading-secondary {
+
+}
+
+.paragraph:not(:last-child) {
+  margin-bottom: 12px;
+}
+*/
+
+.link-underlined {
+  background-image: linear-gradient(180deg, transparent 70%, rgba(186, 137, 86, 0.3) 0);
+  color: var(--neutral-1000);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

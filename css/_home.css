@@ -1,22 +1,4 @@
 /**/
-/* SPACERS */
-.spacer-bottom {
-  margin-bottom: 96px;
-}
-
-.spacer-bottom--banner {
-  margin-bottom: 256px;
-}
-
-.spacer-bottom--contact {
-  margin-bottom: 256px;
-}
-
-.spacer-bottom--instagram {
-  margin-bottom: 48px;
-}
-
-/**/
 /* THE CONCEPT */
 .concept {
   display: flex;
