@@ -1,25 +1,368 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,500,500i,600,600i,700,700i|Lato:300,300i,400,400i,700,700i');
+:root {
+  --primary: hsl(31, 42%, 53%);
+  --secondary: hsl(31, 15%, 94%);
+  --black: hsl(116, 0%, 20%);
+  --white: hsl(129, 11%, 100%);
+  --font-serif: "EB Garamond", serif;
+  --font-sans-serif: "Lato", sans-serif;
+}
 
-/* Font Awesome Icons */
-@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
 
-/* Variables */
-@import url("abstracts/variables.css");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
-/* Base */
-@import url("base/base.css");
-@import url("base/typography.css");
-@import url("base/helpers.css");
+body {
+  max-width: 100vw;
+}
 
-/* Components */
-@import url("components/card.css");
-@import url("components/logo.css");
+a {
+  color: var(--black);
+  text-decoration: none;
+}
 
-/* Layout */
-@import url("layout/banner.css");
-@import url("layout/footer.css");
-@import url("layout/navbar.css");
+body {
+  color: var(--black);
+  font-family: var(--font-sans-serif);
+  font-weight: 300;
+  line-height: 1.5rem;
+}
 
-/* Pages */
-@import url("pages/home.css");
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.heading__article {
+  font-size: 1.125rem;
+  transform: rotate(-90deg);
+  text-transform: lowercase;
+}
+
+.paragraph {
+  margin-bottom: 12px;
+}
+
+.link-underlined {
+  background-image: linear-gradient(180deg, transparent 65%, rgba(186, 137, 86, 0.3) 0);
+  color: var(--black);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.band {
+  background-color: var(--secondary);
+}
+
+.image-square {
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.spacer-sm {
+  margin-bottom: 48px;
+}
+
+.spacer-md {
+  margin-bottom: 96px;
+}
+
+.spacer-lg {
+  margin-bottom: 192px;
+}
+
+.spacer-xl {
+  margin-bottom: 256px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image-wrap {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.card__image {
+  height: 288px;
+  width: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 288px;
+  width: 240px;
+  background-color: var(--black);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.card__image-wrap:hover .card__overlay {
+  opacity: 0.8;
+}
+
+.card__overlay--new-edition {
+  background-color: var(--primary);
+}
+
+.card__text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card__heading {
+  color: var(--white);
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+
+.card__link {
+  color: var(--white);
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__edition {
+  color: var(--primary);
+}
+
+.card__city {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.logo__article {
+  font-size: 1.125rem;
+  transform: rotate(-90deg);
+  text-transform: lowercase;
+}
+
+.logo--small {
+  font-size: 1.25rem;
+}
+
+.logo__article--small {
+  font-size: 0.875rem;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner__text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner__header {
+  position: relative;
+  width: 128%;
+  margin-bottom: 32px;
+  font-family: var(--font-serif);
+  font-size: 2.25rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+  line-height: normal;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.banner__paragraph {
+  width: 96%;
+  margin-bottom: 48px;
+}
+
+.banner__image-wrap {
+  position: relative;
+}
+
+.banner__image {
+  height: 500px;
+  width: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner__deco {
+  background-color: var(--secondary);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 48px 0;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__item {
+  color: var(--black);
+  font-size: 0.875rem;
+  margin-right: 48px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 48px 0;
+}
+
+.site-nav__menu {
+  display: flex;
+}
+
+.site-nav__link {
+  color: var(--black);
+  margin-right: 48px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-nav__link:last-child {
+  margin-right: 0;
+}
+
+.site-nav__link:hover {
+  border-bottom: 2px solid var(--primary);
+}
+
+.concept {
+  display: flex;
+  align-items: flex-end;
+}
+
+.concept__image-wrap {
+  height: 240px;
+  width: 240px;
+  margin: 0 104px 0 32px;
+}
+
+.concept__text-wrap {
+  width: 48%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact__text-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 48px 0 96px 0;
+}
+
+.contact__paragraph {
+  margin-bottom: 32px;
+}
+
+.contact__image {
+  position: absolute;
+  top: 80%;
+  left: 19%;
+  width: 60%;
+}
+
+.instagram__header-wrap {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+
+.instagram__icon {
+  color: var(--primary);
+  font-size: 1.875rem;
+  margin-right: 8px;
+}
+
+.instagram__heading {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.instagram__images {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,4 @@
-/**
-  * Concept
-*/
+// Concept
 .concept {
   display: flex;
   align-items: flex-end;
@@ -16,18 +14,14 @@
   width: 48%;
 }
 
-/**
-  * Gatherings
-*/
+// Gatherings
 .cards-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
 }
 
-/**
-  * Join Us
-*/
+// Join us
 .contact {
   position: relative;
 }
@@ -49,12 +43,10 @@
   position: absolute;
   top: 80%;
   left: 19%;
-  width: 60%; /* Of parent container */
+  width: 60%; // Of parent container
 }
 
-/**
-  * Instagram
-*/
+// Instagram
 .instagram__header-wrap {
   display: flex;
   align-items: baseline;
