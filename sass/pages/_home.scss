@@ -2,16 +2,14 @@
 .concept {
   display: flex;
   align-items: flex-end;
-}
-
-.concept__image-wrap {
-  height: 240px;
-  width: 240px;
-  margin: 0 104px 0 32px;
-}
-
-.concept__text-wrap {
-  width: 48%;
+  &__image-wrap {
+    height: 240px;
+    width: 240px;
+    margin: 0 104px 0 32px;
+  }
+  &__text-wrap {
+    width: 48%;
+  }
 }
 
 // Gatherings
@@ -24,48 +22,44 @@
 // Join us
 .contact {
   position: relative;
-}
-
-.contact__text-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  margin: 0 auto;
-  padding: 48px 0 96px 0;
-}
-
-.contact__paragraph {
-  margin-bottom: 32px;
-}
-
-.contact__image {
-  position: absolute;
-  top: 80%;
-  left: 19%;
-  width: 60%; // Of parent container
+  &__text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 48px 0 96px 0;
+  }
+  &__paragraph {
+    margin-bottom: 32px;
+  }
+  &__image {
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    width: 60%; // Of parent container
+  }
 }
 
 // Instagram
-.instagram__header-wrap {
-  display: flex;
-  align-items: baseline;
-  margin-bottom: 24px;
-}
-
-.instagram__icon {
-  color: var(--primary);
-  font-size: 1.875rem;
-  margin-right: 8px;
-}
-
-.instagram__heading {
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-.instagram__images {
-  display: flex;
-  justify-content: space-between;
+.instagram {
+  &__header-wrap {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 24px;
+  }
+  &__icon {
+    color: var(--primary);
+    font-size: 1.875rem;
+    margin-right: 8px;
+  }
+  &__heading {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  &__images {
+    display: flex;
+    justify-content: space-between;
+  }
 }

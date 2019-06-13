@@ -1,71 +1,69 @@
 .card {
   display: flex;
   flex-direction: column;
-}
 
-.card__image-wrap {
-  position: relative;
-  margin-bottom: 12px;
-}
+  &__image-wrap {
+    position: relative;
+    margin-bottom: 12px;
+    &:hover .card__overlay {
+    opacity: 0.8;
+    }
+  }
 
-.card__image {
-  height: 288px;
-  width: 240px;
-  object-fit: cover;
-  object-position: center;
-}
+  &__image {
+    height: 288px;
+    width: 240px;
+    object-fit: cover;
+    object-position: center;
+  }
 
-.card__overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 288px;
-  width: 240px;
-  background-color: var(--black);
-  opacity: 0;
-  transition: .5s ease;
-}
+  &__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 288px;
+    width: 240px;
+    background-color: var(--black);
+    opacity: 0;
+    transition: .5s ease;
+    &--new-edition {
+      background-color: var(--primary);
+    }
+  }
 
-.card__image-wrap:hover .card__overlay {
-  opacity: 0.8;
-}
+  &__text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
-.card__overlay--new-edition {
-  background-color: var(--primary);
-}
+  &__heading {
+    color: var(--white);
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+  }
 
-.card__text-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+  &__link {
+    color: var(--white);
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
 
-.card__heading {
-  color: var(--white);
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  margin-bottom: 24px;
-}
+  &__edition {
+    color: var(--primary);
+  }
 
-.card__link {
-  color: var(--white);
-  font-family: var(--font-serif);
-  font-size: 1.125rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
-.card__edition {
-  color: var(--primary);
-}
-
-.card__city {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  &__city {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
 }

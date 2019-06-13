@@ -13,12 +13,11 @@ body {
   font-weight: 400;
   margin-bottom: 24px;
   text-transform: uppercase;
-}
-
-.heading__article {
-  font-size: 1.125rem;
-  transform: rotate(-90deg);
-  text-transform: lowercase;
+  &__article {
+    font-size: 1.125rem;
+    transform: rotate(-90deg);
+    text-transform: lowercase;
+  }
 }
 
 .paragraph {
