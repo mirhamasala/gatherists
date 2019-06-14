@@ -3,20 +3,21 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 48px 0;
-
-  &__links {
-    display: flex;
+  &__menu {
+    list-style: none;
   }
-
   &__item {
-    color: var(--black);
-    font-size: 0.875rem;
+    display: inline-block;
     margin-right: 48px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
     &:last-child {
       margin-right: 0;
     }
+  }
+  &__link {
+    color: var(--black);
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }

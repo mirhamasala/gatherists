@@ -252,19 +252,22 @@ body {
   align-items: baseline;
   padding: 48px 0;
 }
-.footer__links {
-  display: flex;
+.footer__menu {
+  list-style: none;
 }
 .footer__item {
-  color: var(--black);
-  font-size: 0.875rem;
+  display: inline-block;
   margin-right: 48px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 .footer__item:last-child {
   margin-right: 0;
+}
+.footer__link {
+  color: var(--black);
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .site-nav {
