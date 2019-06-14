@@ -1,0 +1,21 @@
+.nav {
+  list-style: none;
+  &__item {
+    display: inline-block;
+    margin-right: 48px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    color: var(--black);
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      border-bottom: 2px solid var(--primary);
+    }
+  }
+}
